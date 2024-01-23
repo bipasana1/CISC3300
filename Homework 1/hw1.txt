@@ -1,14 +1,24 @@
 Bipasana Poudel
 Homework 1
 
-What happens from the time a user puts a URL into their browser to when they are able to view a webpage? - Briefly define ISP, URL, DNS, web server.
-When a user puts a URL (Uniform Resource Locator) into their browser it specifies the location of the resource on the Internet if it is connected by ISP (Internet Service Provider); a service that gives the user access to the Internet. Then, the browser will take us to DNS (Domain Name System), a human-readable domain name that converts into an IP address the computer can understand. User requests are then sent to the web server hosting the webpage, every URL has a web server. Lastly, the user can finally view the webpage.
-What is html? What does it do?
-In my understanding, HTML is a markup language used to design the contents in a web browser. It defines the basic structures of a web page, it allows you to add images, links, lists, tables, etc. to a web page. 
-Access https://www.fordham.edu/. In your own words, describe how this webpage uses structure to convey meaning and navigation options to the user.
+1. What happens from the time a user puts a URL into their browser to when they are able to view a webpage? - Briefly define ISP, URL, DNS, web server.
+==> When a user puts a URL (Uniform Resource Locator) into their browser it specifies the location of the resource on the Internet if it is connected by ISP (Internet Service Provider); a service that gives the user access to the Internet. 
+    Then, the browser will take us to DNS (Domain Name System), a human-readable domain name that converts into an IP address the computer can understand. 
+    User requests are then sent to the web server hosting the webpage, every URL has a web server. 
+    Lastly, the user can finally view the webpage.
 
+2. What is html? What does it do?
+==> Html is a hyper text markup language. It is a standard markup language for creating web pages, it structures web pages.
 
-What is an html element? Tag? Attribute?
+3. Access https://www.fordham.edu/. In your own words, describe how this webpage uses structure to convey meaning and navigation options to the user.
+==> In the homepage of the fordham website, I see that there's multiple headings. First heading says My Apps.
+    I notcied on the top of the page there are navigation to get to the other pages of the websites.
+    There are paragraphs and tables.
 
+4. What is an html element? Tag? Attribute?
+==> Html element is made up of two tags, opening and closing and it uses elements to structure the pages.
+    Tags act like containers, if it's inside the tag the elemrnt will do whatever inside of the opening and closing pairs.
+    Attributes tells us more about the element and it always has a name and a value.
 
-Create a simple html page with some information about yourself! examples: your major, career goals, pets, etc.
+5. Create a simple html page with some information about yourself! examples: your major, career goals, pets, etc. 
+==> hello.html
