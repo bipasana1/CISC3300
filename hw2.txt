@@ -1,0 +1,46 @@
+Bipasana Poudel
+Homework 2
+
+1. Define structural vs semantic meaning in regard to HTML elements.
+==> Structural refers to the overall organization and layout of the HTML document.
+    It includes elements like <html>, <head>, and <body>, which define the basic structure of the document.
+    While, Sematic is intended to convey meaning with that element type, even if it is indistinguishable from other element visually.
+
+2. Why is it important to use correct html elements when designing web pages?
+==> It is important to use correct html elements when designing web pages because it helps search engines easily crawl and index a site, improving its chances of showing up in relevant search results.
+
+3. What are forms in html? What is their purpose? When would you use one?
+==> Html form elements collects information to send somewhere else. 
+    We use this when typing into a text field or providing an input, the field is a form.
+
+4. Define and contrast inline vs block elements.
+==> Block elements  will always appear to start on a new line in the browser window.
+    Inline elements will always appear to continue on the same line as their neighbouring elements. Inline elements sit within a block level element and do not start on a new line.
+
+5. Create a new HTML web page for a fictitious store and include:
+a. some text elements: h1, h2, paragraphs, etc
+b. a list with multiple list items
+c. links
+i. link to a second html page, checkout.html, relatively
+ii. link to an external webpage
+d. images
+i. from the webpages directory via a relative source link
+ii. from an external link
+e. a table
+i. at least two columns, two rows, headers, and some content
+f. a form
+i. 2 inputs of any kind, with labels
+g. some divs, spans
+i. content on its own line via a div
+ii. 2 pieces of content grouped together via spans
+
+Try to design it in a way so that customers will be able to quickly find what they are looking for.
+
+Board Game Paradise
+
+Description: A haven for board game enthusiasts, this store offers a diverse selection of tabletop games, puzzles, and strategy games. 
+It could also host game nights, tournaments, and provide a communal gaming space.
+
+Search Bar to search for board games
+Different board games with prices
+Link to original site of the board game
