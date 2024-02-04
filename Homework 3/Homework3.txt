@@ -1,0 +1,16 @@
+Question 3 and 4
+
+3. Compare and contrast margin, padding, and border.
+  Margin is the space outside the border of an element. It creates space between the element's border and surrounding elements.
+  Padding is the space inside an element, between its content and its border.
+  Border is the line that surrounds the padding of an element.
+  Margins control the spacing outside the element, padding controls the spacing inside the element, and borders create a visible boundary around the element.
+
+4. Define the following flexbox css rules
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/:
+a. display: flex - enables a flex context for all its direct children.
+b. flex-direction - the direction flex items are placed in the flex container.
+c. flex-wrap - allow the items to wrap as needed with this property instead of trying to fit onto one lime.
+d. justify-content/align-items - defines the alignment along the main axis.
+                                - This defines the default behavior for how flex items are laid out along the cross axis on the current line. 
+e. align-content - aligns a flex container’s lines within when there is extra space in the cross-axis, similar to how justify-content aligns individual items within the main-axis.
