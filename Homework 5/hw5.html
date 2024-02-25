@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Homework 5</title>
+</head>
+<body>
+  <!-- Button to change its text -->
+  <button id="changeTextButton">Click me to change text</button>
+  
+  <!-- List with list items -->
+  <ul id="list">
+    <li>List Item 1</li>
+    <li>List Item 2</li>
+    <li>List Item 3</li>
+  </ul>
+  
+  <!-- Div containing a button -->
+  <div id="divContainer">
+    <button id="appendButton">Click me to append</button>
+  </div>
+
+  <script>
+    // Button to change its text
+    document.getElementById("changeTextButton").addEventListener("click", function() {
+      this.innerText = "Text changed!";
+    });
+
+    // List items color change
+    let listItems = document.querySelectorAll("#list li");
+    listItems.forEach(function(item) {
+      item.addEventListener("click", function() {
+        listItems.forEach(function(li) {
+          li.style.color = "blue";
+        });
+      });
+    });
+
+    // Button to append paragraph
+    document.getElementById("appendButton").addEventListener("click", function() {
+      let paragraph = document.createElement("p");
+      paragraph.textContent = "Appended paragraph text";
+      document.getElementById("divContainer").appendChild(paragraph);
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+1. 
+let x = 10;
+let variable = (x > 5) ? "greater than 5" : "not greater than 5";
+console.log(variable);
+
+2. 
+// Create an object
+let myObject = {
+  name: "Daniel",
+  age: 21,
+  city: "New York"
+};
+
+// Loop through the object's properties
+for (let key in myObject) {
+  // Check if the property belongs to the object itself
+  if (myObject.hasOwnProperty(key)) {
+    // Log each property's value
+    console.log(`${key}: ${myObject[key]}`);
+  }
+}
+
+3. 
+// Create an array of numbers
+let numbers = [1, 2, 3, 4, 5];
+
+// Use the map function to create a new array of squared numbers
+let squaredNumbers = numbers.map(function(num) {
+  return num * num;
+});
+console.log(squaredNumbers);
+
+4. 
+The Document Object Model (DOM) specifies how browsers should create a model of an HTML page and how JavaScript can access and update the contents of a web page while it is in the browser window.
+The DOM tree is like a family tree, where each member (or node) is connected to others in a structured way. This tree structure helps web browsers understand how to display and interact with your web page.
+
+5. 
+Cross-site scripting (XSS) is an attack in which an attacker injects malicious executable scripts into the code of a trusted application or website. 
+Attackers often initiate an XSS attack by sending a malicious link to a user and enticing the user to click it.
+To guard against it you need to be very careful with what content you treat as html and it should very rarely have the option to have come from a user at all.
+
